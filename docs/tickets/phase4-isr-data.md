@@ -30,21 +30,21 @@ ISR（Incremental Static Regeneration）の仕組みを理解し、効率的な�
 - Q2: 従来のSSGとISRの違いは何ですか？
 - Q3: ISRのメリットとデメリットは何ですか？
 - Q4: どのような場面でISRを使うべきですか？
-- Q5: Next.js 14でのISRの改善点は何ですか？
+- Q5: Next.js 15でのISRの改善点は何ですか？
 
 **generateStaticParams**
 - Q6: `generateStaticParams` の役割は何ですか？
 - Q7: `generateStaticParams` はいつ実行されますか？
 - Q8: `generateStaticParams` で返されなかったパラメータはどうなりますか？
 - Q9: 大量のページがある場合、`generateStaticParams` の最適化方法は？
-- Q10: Next.js 14での `generateStaticParams` の改善点は？
+- Q10: Next.js 15での `generateStaticParams` の改善点は？
 
 **revalidate設定**
 - Q11: `revalidate` オプションは何を制御しますか？
 - Q12: `revalidate: 3600` は何を意味しますか？
 - Q13: `revalidate: false` と `revalidate: 0` の違いは何ですか？
 - Q14: On-demand revalidationとは何ですか？
-- Q15: Next.js 14でのキャッシュ戦略の変更点は？
+- Q15: Next.js 15でのキャッシュ戦略の変更点は？
 
 **実務での使い分け**
 - Q16: ブログサイトの記事ページにISRを使うべきですか？
@@ -68,7 +68,7 @@ ISR（Incremental Static Regeneration）の仕組みを理解し、効率的な�
 - revalidate時間を適切に設定できる
 - 静的生成と動的レンダリングの使い分けができる
 - ISRのパフォーマンス特性を理解している
-- Next.js 14での改善点を活用できる
+- Next.js 15での改善点を活用できる
 
 **💭 学習メモ：**
 ```

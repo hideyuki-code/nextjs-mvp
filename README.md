@@ -15,8 +15,8 @@ Next.jsを使用したナンパブログMVPプロジェクト。App Router、ISR
 - デプロイ・運用の実践知識
 
 ### 🛠️ 使用技術
-- **フレームワーク**: Next.js 14 (App Router)
-- **スタイリング**: Tailwind CSS
+- **フレームワーク**: Next.js 15.2 (App Router)
+- **スタイリング**: Tailwind CSS 3.4
 - **言語**: TypeScript
 - **デプロイ**: Vercel
 - **データ管理**: JSON (MVPフェーズ)

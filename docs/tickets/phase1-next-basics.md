@@ -2,7 +2,7 @@
 
 ## 📋 フェーズ概要
 
-Next.js 14の基本概念とApp Routerの理解を深め、基本的なSPAを構築します。
+Next.js 15の基本概念とApp Routerの理解を深め、基本的なSPAを構築します。
 
 ## 🎯 学習目標
 
@@ -11,8 +11,8 @@ Next.js 14の基本概念とApp Routerの理解を深め、基本的なSPAを構
 - [ ] 基本的なルーティングを実装
 - [ ] TypeScript + Tailwind環境を構築
 - [ ] Server Components と Client Components の違いを理解
-- [ ] Server Actions（Next.js 14）の基本実装
-- [ ] Next.js 14の新機能を理解
+- [ ] Server Actions（Next.js 15）の基本実装
+- [ ] Next.js 15の新機能を理解
 
 ---
 
@@ -29,20 +29,20 @@ Next.js 14の基本概念とApp Routerの理解を深め、基本的なSPAを構
 **🎯 理解すべき質問（これらに答えられるようになることが目標）：**
 
 **App Router基本理解**
-- Q1: App Routerとは何ですか？Next.js 14で何が新しくなりましたか？
+- Q1: App Routerとは何ですか？Next.js 15で何が新しくなりましたか？
 - Q2: App RouterとPages Routerの違いを3つ以上説明できますか？
 - Q3: app/ ディレクトリの中身はどのような構造になっていますか？
-- Q4: Next.js 14での新機能（Turbopack、Server Actions等）の概要は？
+- Q4: Next.js 15での新機能（React 19サポート、改良されたエラーUI、streaming metadata等）の概要は？
 
 **ファイルベースルーティング**
 - Q5: ファイルベースルーティングとは何ですか？従来のルーティングとの違いは？
 - Q6: `/app/about/page.tsx` を作ると、どのURLでアクセスできますか？
 - Q7: 動的ルート（`[slug]`）はどのように動作しますか？
 
-**Next.js 14の新機能**
-- Q8: Turbopack（開発モード）とは何ですか？従来のwebpackとの違いは？
+**Next.js 15の新機能**
+- Q8: Turbopack（安定版）とは何ですか？従来のwebpackとの違いは？
 - Q9: Server Actions（安定版）とは何ですか？どのような場面で使いますか？
-- Q10: Partial Prerendering（プレビュー）とは何ですか？
+- Q10: React 19サポート、after() API、streaming metadataとは何ですか？
 
 **実務応用**
 - Q11: どのような場合にApp Routerを選択しますか？
@@ -57,7 +57,7 @@ Next.js 14の基本概念とApp Routerの理解を深め、基本的なSPAを構
 - 上記の質問12つすべてに具体的に答えられる
 - 他の人にApp Routerの利点を説明できる
 - 実際にApp Routerを使うべき場面を判断できる
-- Next.js 14の新機能を理解し、適切に活用できる
+- Next.js 15の新機能を理解し、適切に活用できる
 
 **📖 参考資料：**
 - [Next.js App Router Documentation](https://nextjs.org/docs/app)
@@ -291,7 +291,7 @@ Next.js 14の基本概念とApp Routerの理解を深め、基本的なSPAを構
 
 ---
 
-### 🔨 TICKET-1-7：Server Actions の基本実装（Next.js 14）
+### 🔨 TICKET-1-7：Server Actions の基本実装（Next.js 15）
 
 **⏰ 予想時間：** 2h  
 **📊 進捗：** 
@@ -302,7 +302,7 @@ Next.js 14の基本概念とApp Routerの理解を深め、基本的なSPAを構
 **🎯 理解すべき質問（これらに答えられるようになることが目標）：**
 
 **Server Actions基本**
-- Q1: Server Actionsとは何ですか？Next.js 14での位置づけは？
+- Q1: Server Actionsとは何ですか？Next.js 15での位置づけは？
 - Q2: Server Actionsと従来のAPI routesの違いは何ですか？
 - Q3: `'use server'` ディレクティブの役割は何ですか？
 - Q4: Server Actionsはどこで実行されますか？
@@ -355,7 +355,7 @@ Next.js 14の基本概念とApp Routerの理解を深め、基本的なSPAを構
 - [ ] Server Components と Client Components の違いを理解している
 - [ ] 'use client' ディレクティブの使い方を理解している
 - [ ] Server Actions の基本実装ができている
-- [ ] Next.js 14の新機能を理解している
+- [ ] Next.js 15の新機能を理解している
 
 **🎯 次のステップ：**
 [phase2-tailwind-ui.md](./phase2-tailwind-ui.md) に進む
