@@ -11,14 +11,14 @@ Next.jsの基礎・ISR・SEOの概念をチケットベースで学習・実践�
 
 | フェーズ | 時間 | 進捗 | チケット |
 |---------|------|------|---------|
-| 🔰 フェーズ1：Next.js基礎理解と学習 | 10h | 0/5 | [phase1-next-basics.md](./tickets/phase1-next-basics.md) |
+| 🔰 フェーズ1：Next.js基礎理解と学習 | 12.5h | 0/6 | [phase1-next-basics.md](./tickets/phase1-next-basics.md) |
 | 🧱 フェーズ2：Tailwind CSS導入とUI構築 | 6h | 0/4 | [phase2-tailwind-ui.md](./tickets/phase2-tailwind-ui.md) |
 | 🌐 フェーズ3：SEOと構造化データの学習 | 10h | 0/5 | [phase3-seo-structured.md](./tickets/phase3-seo-structured.md) |
 | 🔄 フェーズ4：ISRとデータ取得 | 10h | 0/4 | [phase4-isr-data.md](./tickets/phase4-isr-data.md) |
 | ✍️ フェーズ5：MVP構築 | 15h | 0/5 | [phase5-mvp-build.md](./tickets/phase5-mvp-build.md) |
 | 📢 フェーズ6：デプロイ・公開・振り返り | 9h | 0/4 | [phase6-deploy-review.md](./tickets/phase6-deploy-review.md) |
 
-**合計：60h / 27チケット**
+**合計：62.5h / 28チケット**
 
 ## 🚀 開始方法
 
