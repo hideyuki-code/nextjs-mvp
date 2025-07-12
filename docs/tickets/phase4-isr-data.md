@@ -23,11 +23,35 @@ ISR（Incremental Static Regeneration）の仕組みを理解し、効率的な�
 - [ ] 検証完了  
 - [ ] 知識定着完了
 
-**🎯 学習内容：**
-- ISRの基本概念と利点
-- generateStaticParamsの仕組み
-- revalidateオプションの使い方
-- 静的生成と動的レンダリングの使い分け
+**🎯 理解すべき質問（これらに答えられるようになることが目標）：**
+
+**ISRの基本概念**
+- Q1: ISR（Incremental Static Regeneration）とは何ですか？
+- Q2: 従来のSSGとISRの違いは何ですか？
+- Q3: ISRのメリットとデメリットは何ですか？
+- Q4: どのような場面でISRを使うべきですか？
+
+**generateStaticParams**
+- Q5: `generateStaticParams` の役割は何ですか？
+- Q6: `generateStaticParams` はいつ実行されますか？
+- Q7: `generateStaticParams` で返されなかったパラメータはどうなりますか？
+- Q8: 大量のページがある場合、`generateStaticParams` の最適化方法は？
+
+**revalidate設定**
+- Q9: `revalidate` オプションは何を制御しますか？
+- Q10: `revalidate: 3600` は何を意味しますか？
+- Q11: `revalidate: false` と `revalidate: 0` の違いは何ですか？
+- Q12: On-demand revalidationとは何ですか？
+
+**実務での使い分け**
+- Q13: ブログサイトの記事ページにISRを使うべきですか？
+- Q14: 商品カタログページにISRを使う際の注意点は？
+- Q15: ニュースサイトでISRを使う場合の最適な revalidate 時間は？
+
+**パフォーマンスとの関係**
+- Q16: ISRはサーバー負荷にどう影響しますか？
+- Q17: CDNとISRの関係は？
+- Q18: ISRを使った場合のキャッシュ戦略は？
 
 **📝 実装手順：**
 1. Next.js公式ドキュメントでISRを調査
@@ -36,10 +60,11 @@ ISR（Incremental Static Regeneration）の仕組みを理解し、効率的な�
 4. ChatGPT Webで知識を整理・言語化
 
 **✅ 検証方法：**
-- ISRの利点を説明できる
-- generateStaticParamsの使い方を理解している
-- revalidateの動作を理解している
-- 静的生成と動的レンダリングの違いを説明できる
+- 上記の質問18つすべてに具体的に答えられる
+- 実際のプロジェクトでISRを適切に実装できる
+- revalidate時間を適切に設定できる
+- 静的生成と動的レンダリングの使い分けができる
+- ISRのパフォーマンス特性を理解している
 
 **💭 学習メモ：**
 ```
