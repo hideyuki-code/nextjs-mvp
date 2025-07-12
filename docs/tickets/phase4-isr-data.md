@@ -30,28 +30,31 @@ ISR（Incremental Static Regeneration）の仕組みを理解し、効率的な�
 - Q2: 従来のSSGとISRの違いは何ですか？
 - Q3: ISRのメリットとデメリットは何ですか？
 - Q4: どのような場面でISRを使うべきですか？
+- Q5: Next.js 14でのISRの改善点は何ですか？
 
 **generateStaticParams**
-- Q5: `generateStaticParams` の役割は何ですか？
-- Q6: `generateStaticParams` はいつ実行されますか？
-- Q7: `generateStaticParams` で返されなかったパラメータはどうなりますか？
-- Q8: 大量のページがある場合、`generateStaticParams` の最適化方法は？
+- Q6: `generateStaticParams` の役割は何ですか？
+- Q7: `generateStaticParams` はいつ実行されますか？
+- Q8: `generateStaticParams` で返されなかったパラメータはどうなりますか？
+- Q9: 大量のページがある場合、`generateStaticParams` の最適化方法は？
+- Q10: Next.js 14での `generateStaticParams` の改善点は？
 
 **revalidate設定**
-- Q9: `revalidate` オプションは何を制御しますか？
-- Q10: `revalidate: 3600` は何を意味しますか？
-- Q11: `revalidate: false` と `revalidate: 0` の違いは何ですか？
-- Q12: On-demand revalidationとは何ですか？
+- Q11: `revalidate` オプションは何を制御しますか？
+- Q12: `revalidate: 3600` は何を意味しますか？
+- Q13: `revalidate: false` と `revalidate: 0` の違いは何ですか？
+- Q14: On-demand revalidationとは何ですか？
+- Q15: Next.js 14でのキャッシュ戦略の変更点は？
 
 **実務での使い分け**
-- Q13: ブログサイトの記事ページにISRを使うべきですか？
-- Q14: 商品カタログページにISRを使う際の注意点は？
-- Q15: ニュースサイトでISRを使う場合の最適な revalidate 時間は？
+- Q16: ブログサイトの記事ページにISRを使うべきですか？
+- Q17: 商品カタログページにISRを使う際の注意点は？
+- Q18: ニュースサイトでISRを使う場合の最適な revalidate 時間は？
 
 **パフォーマンスとの関係**
-- Q16: ISRはサーバー負荷にどう影響しますか？
-- Q17: CDNとISRの関係は？
-- Q18: ISRを使った場合のキャッシュ戦略は？
+- Q19: ISRはサーバー負荷にどう影響しますか？
+- Q20: CDNとISRの関係は？
+- Q21: ISRを使った場合のキャッシュ戦略は？
 
 **📝 実装手順：**
 1. Next.js公式ドキュメントでISRを調査
@@ -60,11 +63,12 @@ ISR（Incremental Static Regeneration）の仕組みを理解し、効率的な�
 4. ChatGPT Webで知識を整理・言語化
 
 **✅ 検証方法：**
-- 上記の質問18つすべてに具体的に答えられる
+- 上記の質問21つすべてに具体的に答えられる
 - 実際のプロジェクトでISRを適切に実装できる
 - revalidate時間を適切に設定できる
 - 静的生成と動的レンダリングの使い分けができる
 - ISRのパフォーマンス特性を理解している
+- Next.js 14での改善点を活用できる
 
 **💭 学習メモ：**
 ```

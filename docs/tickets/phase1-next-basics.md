@@ -1,8 +1,8 @@
-# 🔰 フェーズ1：Next.js基礎理解と学習（12.5h）
+# 🔰 フェーズ1：Next.js基礎理解と学習（14.5h）
 
 ## 📋 フェーズ概要
 
-Next.jsの基本概念とApp Routerの理解を深め、基本的なSPAを構築します。
+Next.js 14の基本概念とApp Routerの理解を深め、基本的なSPAを構築します。
 
 ## 🎯 学習目標
 
@@ -11,6 +11,8 @@ Next.jsの基本概念とApp Routerの理解を深め、基本的なSPAを構築
 - [ ] 基本的なルーティングを実装
 - [ ] TypeScript + Tailwind環境を構築
 - [ ] Server Components と Client Components の違いを理解
+- [ ] Server Actions（Next.js 14）の基本実装
+- [ ] Next.js 14の新機能を理解
 
 ---
 
@@ -27,18 +29,24 @@ Next.jsの基本概念とApp Routerの理解を深め、基本的なSPAを構築
 **🎯 理解すべき質問（これらに答えられるようになることが目標）：**
 
 **App Router基本理解**
-- Q1: App Routerとは何ですか？Next.js 13で何が変わりましたか？
+- Q1: App Routerとは何ですか？Next.js 14で何が新しくなりましたか？
 - Q2: App RouterとPages Routerの違いを3つ以上説明できますか？
 - Q3: app/ ディレクトリの中身はどのような構造になっていますか？
+- Q4: Next.js 14での新機能（Turbopack、Server Actions等）の概要は？
 
 **ファイルベースルーティング**
-- Q4: ファイルベースルーティングとは何ですか？従来のルーティングとの違いは？
-- Q5: `/app/about/page.tsx` を作ると、どのURLでアクセスできますか？
-- Q6: 動的ルート（`[slug]`）はどのように動作しますか？
+- Q5: ファイルベースルーティングとは何ですか？従来のルーティングとの違いは？
+- Q6: `/app/about/page.tsx` を作ると、どのURLでアクセスできますか？
+- Q7: 動的ルート（`[slug]`）はどのように動作しますか？
+
+**Next.js 14の新機能**
+- Q8: Turbopack（開発モード）とは何ですか？従来のwebpackとの違いは？
+- Q9: Server Actions（安定版）とは何ですか？どのような場面で使いますか？
+- Q10: Partial Prerendering（プレビュー）とは何ですか？
 
 **実務応用**
-- Q7: どのような場合にApp Routerを選択しますか？
-- Q8: 既存のPages Routerプロジェクトを移行する際の注意点は？
+- Q11: どのような場合にApp Routerを選択しますか？
+- Q12: 既存のPages Routerプロジェクトを移行する際の注意点は？
 
 **📝 実装手順：**
 1. Next.js公式ドキュメントでApp Routerを調査
@@ -46,9 +54,10 @@ Next.jsの基本概念とApp Routerの理解を深め、基本的なSPAを構築
 3. ChatGPT Webで知識を整理・言語化
 
 **✅ 検証方法：**
-- 上記の質問8つすべてに具体的に答えられる
+- 上記の質問12つすべてに具体的に答えられる
 - 他の人にApp Routerの利点を説明できる
 - 実際にApp Routerを使うべき場面を判断できる
+- Next.js 14の新機能を理解し、適切に活用できる
 
 **📖 参考資料：**
 - [Next.js App Router Documentation](https://nextjs.org/docs/app)
@@ -282,6 +291,58 @@ Next.jsの基本概念とApp Routerの理解を深め、基本的なSPAを構築
 
 ---
 
+### 🔨 TICKET-1-7：Server Actions の基本実装（Next.js 14）
+
+**⏰ 予想時間：** 2h  
+**📊 進捗：** 
+- [ ] 実装完了
+- [ ] 検証完了  
+- [ ] 知識定着完了
+
+**🎯 理解すべき質問（これらに答えられるようになることが目標）：**
+
+**Server Actions基本**
+- Q1: Server Actionsとは何ですか？Next.js 14での位置づけは？
+- Q2: Server Actionsと従来のAPI routesの違いは何ですか？
+- Q3: `'use server'` ディレクティブの役割は何ですか？
+- Q4: Server Actionsはどこで実行されますか？
+
+**フォーム処理**
+- Q5: フォームでServer Actionsを使うにはどうしますか？
+- Q6: `action` propにServer Actionsを渡す方法は？
+- Q7: FormDataを使ったデータ取得方法は？
+- Q8: Server Actionsでのバリデーション方法は？
+
+**エラーハンドリング**
+- Q9: Server Actionsでのエラーハンドリングはどうしますか？
+- Q10: クライアントサイドでServer Actionsのエラーを処理するには？
+- Q11: `redirect()` や `revalidatePath()` の使い方は？
+
+**実務応用**
+- Q12: どのような場面でServer Actionsを使うべきですか？
+- Q13: Server ActionsとServer Componentsの組み合わせ方は？
+- Q14: Server Actionsのセキュリティ考慮事項は？
+- Q15: Server ActionsとClient Componentsの連携方法は？
+
+**📝 実装手順：**
+1. Server Actionsの基本概念を学習
+2. 簡単なフォーム処理を実装
+3. エラーハンドリングを追加
+4. 実用的なサンプルを作成
+
+**✅ 検証方法：**
+- 上記の質問15つすべてに具体的に答えられる
+- Server Actionsを使ったフォーム処理を実装できる
+- 適切なエラーハンドリングができる
+- Server ActionsとAPI routesの使い分けができる
+
+**💭 実装メモ：**
+```
+[実装時の気づきや問題点を記録]
+```
+
+---
+
 ## 🎓 フェーズ1完了チェック
 
 **すべてのチケットが完了したら以下を確認：**
@@ -293,6 +354,8 @@ Next.jsの基本概念とApp Routerの理解を深め、基本的なSPAを構築
 - [ ] Dynamic Routes の仕組みを理解している
 - [ ] Server Components と Client Components の違いを理解している
 - [ ] 'use client' ディレクティブの使い方を理解している
+- [ ] Server Actions の基本実装ができている
+- [ ] Next.js 14の新機能を理解している
 
 **🎯 次のステップ：**
 [phase2-tailwind-ui.md](./phase2-tailwind-ui.md) に進む
