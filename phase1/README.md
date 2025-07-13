@@ -16,15 +16,15 @@ Next.js 15の基本概念とApp Routerの理解を深め、基本的なSPAを構
 
 ## 🎫 チケット一覧
 
-| チケット | 内容 | 時間 | 進捗 |
-|---------|------|------|------|
-| [TICKET-1-1](./ticket-1-1-app-router-basics.md) | App Router構成とPages Routerとの違いを理解する | 2h | ⭕ |
-| [TICKET-1-2](./ticket-1-2-directory-structure.md) | app/ ディレクトリ構成と layout.tsx, page.tsx の役割を理解する | 1.5h | ⭕ |
-| [TICKET-1-3](./ticket-1-3-project-setup.md) | Cursorで新規プロジェクト作成（Tailwind + TypeScript） | 2h | ⭕ |
-| [TICKET-1-4](./ticket-1-4-spa-pages.md) | 2ページ構成（/ と /about）のSPAを構築 | 2.5h | ⭕ |
-| [TICKET-1-5](./ticket-1-5-routing-basics.md) | Routing、Link、dynamic routing（[slug]）の基礎を理解する | 2h | ⭕ |
-| [TICKET-1-6](./ticket-1-6-server-client-components.md) | Server Components と Client Components の理解 | 2.5h | ⭕ |
-| [TICKET-1-7](./ticket-1-7-server-actions.md) | Server Actions の基本実装（Next.js 15） | 2h | ⭕ |
+| チケット | 内容 | 予定日 | 実施日 | 予想時間 | 実際の所要時間 | 完了 |
+|----------|------|--------|--------|----------|----------------|------|
+| [TICKET-1-1](./ticket-1-1-app-router-basics.md) | App Router構成とPages Routerとの違いを理解する | 2025/07/13 | 2025/07/13 | 2h | 30分 | ✔ |
+| [TICKET-1-2](./ticket-1-2-directory-structure.md) | app/ ディレクトリ構成と layout.tsx, page.tsx の役割を理解する | 2025/07/13 | 2025/07/13 | 1.5h | 30分 | ✔ |
+| [TICKET-1-3](./ticket-1-3-project-setup.md) | Cursorで新規プロジェクト作成（Tailwind + TypeScript） | 2025/07/13 | 2025/07/13 | 2h | 30分 | ✔ |
+| [TICKET-1-4](./ticket-1-4-spa-pages.md) | 2ページ構成（/ と /about）のSPAを構築 | 2025/07/14 | | 2.5h | | |
+| [TICKET-1-5](./ticket-1-5-routing-basics.md) | Routing、Link、dynamic routing（[slug]）の基礎を理解する | 2025/07/15 | | 2h | | |
+| [TICKET-1-6](./ticket-1-6-server-client-components.md) | Server Components と Client Components の理解 | 2025/07/19 | | 2.5h | | |
+| [TICKET-1-7](./ticket-1-7-server-actions.md) | Server Actions の基本実装（Next.js 15） | 2025/07/19 | | 2h | | |
 
 **合計時間：** 14.5h
 
